@@ -38,35 +38,35 @@ public class Editor extends JFrame{
 	
 	Mode mode = Mode.LAYERS;
 	
-	Image img;
+	private Image img;
 	
 	
 	
 
 	
-	JButton loadImageButton = new JButton("Load Layer");
-	JTextField loadImageTextField = new JTextField();
-	JPanel loadLayerPanel;
+	private JButton loadImageButton = new JButton("Load Layer");
+	private JTextField loadImageTextField = new JTextField();
+	private JPanel loadLayerPanel;
 	
-	JButton rightButton = new JButton(">>>");
-	JButton leftButton = new JButton("<<<");
+	private JButton rightButton = new JButton(">>>");
+	private JButton leftButton = new JButton("<<<");
 
-	JButton saveButton = new JButton("Save");
-	JTextField nameField = new JTextField();
+	private JButton saveButton = new JButton("Save");
+	private JTextField nameField = new JTextField();
 
-	JLabel rectnagleLabelX = new JLabel("X: ");
-	JLabel rectnagleLabelY = new JLabel("Y: ");
-	JButton addRectangleButton = new JButton("Add Rectangle");
-	JTextField rectangleTextFieldX = new JTextField();
-	JTextField rectangleTextFieldY = new JTextField();
+	private JLabel rectnagleLabelX = new JLabel("X: ");
+	private JLabel rectnagleLabelY = new JLabel("Y: ");
+	private JButton addRectangleButton = new JButton("Add Rectangle");
+	private JTextField rectangleTextFieldX = new JTextField();
+	private JTextField rectangleTextFieldY = new JTextField();
 	
-	JButton editImageButton = new JButton("Edit Image");
+	private JButton editImageButton = new JButton("Edit Image");
 	
-	JPanel layerPanel = null;
-	JSlider visibilitySlider = null;
-	JCheckBox activeCheckBox = null;
-	JCheckBox inPhotoCheckBox = null;
-	JButton deleteLayerButton = new JButton("Delete Layer");
+	private JPanel layerPanel = null;
+	private JSlider visibilitySlider = null;
+	private JCheckBox activeCheckBox = null;
+	private JCheckBox inPhotoCheckBox = null;
+	private JButton deleteLayerButton = new JButton("Delete Layer");
 	
 	private JPanel bottomPanel;
 	
@@ -76,10 +76,10 @@ public class Editor extends JFrame{
 
 	
 	
-	JPanel saveAndExportPanel = new JPanel();
+	private JPanel saveAndExportPanel = new JPanel();
 	
-	JButton layerViewButton = new JButton("Layers");
-	JButton imageViewButton = new JButton("Image");
+	private JButton layerViewButton = new JButton("Layers");
+	private JButton imageViewButton = new JButton("Image");
 	
 	private JPanel buttonMenuPanel;
 	private JPanel activePanel = null;
@@ -114,7 +114,7 @@ public class Editor extends JFrame{
 	private JButton loadOperationButton = new JButton("Load Operation");
 
 	
-	BufferedImage currentImage = null;
+	private BufferedImage currentImage = null;
 	
 	
 	
@@ -122,38 +122,38 @@ public class Editor extends JFrame{
 	
 	
 	// Operations
-	JPanel operationPanel = null;
+	private JPanel operationPanel = null;
 	
-	ButtonGroup operationsCheckBoxGroup = new ButtonGroup();
+	private ButtonGroup operationsCheckBoxGroup = new ButtonGroup();
 	
-	JSlider operationValueSlider = new JSlider(0,100,100);
+	private JSlider operationValueSlider = new JSlider(0,100,100);
 	
-	JCheckBox addConstantCheckBox = new JCheckBox("Add");
-	JCheckBox substractConstantCheckBox = new JCheckBox("Substract");
-	JCheckBox invSubCheckBox = new JCheckBox("Inverse substract");
-	JCheckBox mulCheckBox = new JCheckBox("Multiply");
-	JCheckBox divideCheckBox = new JCheckBox("Divide");
-	JCheckBox inverseDivisionCheckBox = new JCheckBox("Inverse Division");
-	JCheckBox powerCheckBox = new JCheckBox("Power");
-	JCheckBox logCheckBox = new JCheckBox("Log");
-	JCheckBox absCheckBox = new JCheckBox("Abs");
-	JCheckBox minCheckBox = new JCheckBox("Min");
-	JCheckBox maxCheckBox = new JCheckBox("Max");
-	JCheckBox InversionCheckBox = new JCheckBox("Inversion");
-	JCheckBox grayToneCheckBox = new JCheckBox("Gray Tone");
-	JCheckBox blackAndWhiteCheckBox = new JCheckBox("Black And White");
-	JCheckBox medianCheckBox = new JCheckBox("Median");
+	private JCheckBox addConstantCheckBox = new JCheckBox("Add");
+	private JCheckBox substractConstantCheckBox = new JCheckBox("Substract");
+	private JCheckBox invSubCheckBox = new JCheckBox("Inverse substract");
+	private JCheckBox mulCheckBox = new JCheckBox("Multiply");
+	private JCheckBox divideCheckBox = new JCheckBox("Divide");
+	private JCheckBox inverseDivisionCheckBox = new JCheckBox("Inverse Division");
+	private JCheckBox powerCheckBox = new JCheckBox("Power");
+	private JCheckBox logCheckBox = new JCheckBox("Log");
+	private JCheckBox absCheckBox = new JCheckBox("Abs");
+	private JCheckBox minCheckBox = new JCheckBox("Min");
+	private JCheckBox maxCheckBox = new JCheckBox("Max");
+	private JCheckBox InversionCheckBox = new JCheckBox("Inversion");
+	private JCheckBox grayToneCheckBox = new JCheckBox("Gray Tone");
+	private JCheckBox blackAndWhiteCheckBox = new JCheckBox("Black And White");
+	private JCheckBox medianCheckBox = new JCheckBox("Median");
 	
-	JButton addOperationButton = new JButton("Add Operation");
-	JButton removeAllOperationsButton = new JButton("Remove All Operations");
-	JButton applyOperationsButton = new JButton("Apply Operations");
+	private JButton addOperationButton = new JButton("Add Operation");
+	private JButton removeAllOperationsButton = new JButton("Remove All Operations");
+	private JButton applyOperationsButton = new JButton("Apply Operations");
 	
-	JLabel operationValue = new JLabel("Operation Value");
+	private JLabel operationValue = new JLabel("Operation Value");
 
-	JTextArea operationsLabel = new JTextArea();
+	private JTextArea operationsLabel = new JTextArea();
 	
 	
-	HashMap<String,String> opMap = new HashMap<String,String>();
+	private HashMap<String,String> opMap = new HashMap<String,String>();
 
 	//-------------------------------------------------
 	
