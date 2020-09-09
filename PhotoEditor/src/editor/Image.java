@@ -20,21 +20,21 @@ import javax.swing.JPanel;
 public class Image {
 	
 	
-	List<Layer> layers = new ArrayList<Layer>();
+	private List<Layer> layers = new ArrayList<Layer>();
 	private int currentLayerIndex = 0;
-	List<Formatter> formatters = new ArrayList<Formatter>();
-	HashMap<String,Formatter> formattersMap = new HashMap<String,Formatter>();
-	List<Rectangle> rectangles = new ArrayList<Rectangle>();
+	private List<Formatter> formatters = new ArrayList<Formatter>();
+	private HashMap<String,Formatter> formattersMap = new HashMap<String,Formatter>();
+	private List<Rectangle> rectangles = new ArrayList<Rectangle>();
 	
 	
-	HashMap<String,Selection> selectionMap = new HashMap<String,Selection>();
-	HashMap<String,CompositeOperation> compositeMap = new HashMap<String,CompositeOperation>();
+	private HashMap<String,Selection> selectionMap = new HashMap<String,Selection>();
+	private HashMap<String,CompositeOperation> compositeMap = new HashMap<String,CompositeOperation>();
 
 	
 	
-	BufferedImage currentImage = null;
+	private BufferedImage currentImage = null;
 	
-	List<Operation> operations = new ArrayList<Operation>();
+	private List<Operation> operations = new ArrayList<Operation>();
 	
 	
 	
