@@ -1,0 +1,18 @@
+<Photo>
+<BasicInfo Height="335" Numberoflayers="1" Numberofselections="1" Numerofcomposite="1" Width="600">
+<Layer ActiveinOperations="true" ActiveinPhoto="true" Path="photoForOperations.bmp" Visibility="100"/>
+<Selection Active="true" Name="3" Numberofrectangles="3">
+<Rectangle Height="94" Width="135" X="293" Y="63"/>
+<Rectangle Height="97" Width="143" X="170" Y="174"/>
+<Rectangle Height="49" Width="106" X="78" Y="52"/>
+</Selection>
+<Composite NumberOfValues="6">
+<Value val="1"/>
+<Value val="5"/>
+<Value val="1"/>
+<Value val="5"/>
+<Value val="1"/>
+<Value val="5"/>
+</Composite>
+</BasicInfo>
+</Photo>

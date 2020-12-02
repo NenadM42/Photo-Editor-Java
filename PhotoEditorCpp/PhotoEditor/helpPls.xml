@@ -1,0 +1,17 @@
+<Photo>
+    <BasicInfo Height="790" Width="1200" Numberoflayers="1" Numberofselections="1" Numerofcomposite="1">
+        <Layer Path="layer_helpPls.xml0.bmp" Visibility="100" ActiveinPhoto="true" ActiveinOperations="true"/>
+        <Selection Name="sel1" Active="true" Numberofrectangles="2">
+            <Rectangle Y="0" X="0" Height="50" Width="50"/>
+            <Rectangle Y="50" X="50" Height="500" Width="300"/>
+        </Selection>
+        <Composite NumberOfValues="6">
+            <Value val="0"/>
+            <Value val="50"/>
+            <Value val="1"/>
+            <Value val="20"/>
+            <Value val="0"/>
+            <Value val="10"/>
+        </Composite>
+    </BasicInfo>
+</Photo>

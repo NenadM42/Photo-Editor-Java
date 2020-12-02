@@ -1,0 +1,12 @@
+<Composite>
+    <BasicInfo>
+        <Composite NumberOfValues="6">
+            <Value val="0"/>
+            <Value val="2"/>
+            <Value val="1"/>
+            <Value val="50"/>
+            <Value val="12"/>
+            <Value val="0"/>
+        </Composite>
+    </BasicInfo>
+</Composite>

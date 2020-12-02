@@ -1,0 +1,14 @@
+<Photo>
+    <BasicInfo Height="600" Width="800" Numberoflayers="2" Numberofselections="0" Numerofcomposite="1">
+        <Layer Path="layer_okruzenje.xml0.bmp" Visibility="70" ActiveinPhoto="true" ActiveinOperations="true"/>
+        <Layer Path="layer_okruzenje.xml1.bmp" Visibility="80" ActiveinPhoto="true" ActiveinOperations="true"/>
+        <Composite NumberOfValues="6">
+            <Value val="0"/>
+            <Value val="2"/>
+            <Value val="1"/>
+            <Value val="50"/>
+            <Value val="12"/>
+            <Value val="0"/>
+        </Composite>
+    </BasicInfo>
+</Photo>

@@ -1,0 +1,3 @@
+﻿  Source.cpp
+c:\users\nenad\source\repos\photoeditor\photoeditor\image.h(76): warning C4018: '>': signed/unsigned mismatch
+  PhotoEditor.vcxproj -> C:\Users\nenad\source\repos\PhotoEditor\Debug\PhotoEditor.exe
